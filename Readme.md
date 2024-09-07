@@ -13,7 +13,7 @@ This is a simple Todo application built using ASP.NET Core Minimal API with SQLi
 Clone the Repository
 ```bash
 git clone https://github.com/monkeyK1n9/TodoAppMinimalAPI
-cd todo-minimal-api
+cd TodoAppMinimalAPI
 ```
 ## Setup Database
 Open the project folder in your terminal.
