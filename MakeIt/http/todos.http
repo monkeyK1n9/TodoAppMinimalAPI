@@ -1,0 +1,26 @@
+GET http://localhost:5179/todos
+
+###
+GET http://localhost:5179/todos/1
+
+###
+POST http://localhost:5179/todos
+Content-Type: application/json
+
+{
+    "Name": "Sleep",
+    "IsCompleted": false
+}
+
+###
+PUT http://localhost:5179/todos/12
+Content-Type: application/json
+
+{
+    "Id": 12,
+    "Name": "Sleep",
+    "IsCompleted": true
+}
+
+###
+DELETE http://localhost:5179/todos/11
